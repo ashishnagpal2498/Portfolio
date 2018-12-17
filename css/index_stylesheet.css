@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+
+/*Header Start*/
+#header{
+    transition: background-color 0.3s;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 68;
+}
+
+#header a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+}
+#logo{
+    width: 70%;
+    display: inline-block;
+    font-weight: bold;
+}
+#nav-toggle{
+    width: 70px;
+    display:inline-block;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0,0,0,.1);
+    border-radius: 10px;
+}
+#logo a{
+    font-size: 1.7em;
+    padding: 30px;
+    padding-left: 15px;
+    display: inline-block;
+}
+#header.open #navigation{
+    transform: translateX(0px);
+}
+#header.open #nav-toggle{
+    background-color: rgba(255,255,255,0.2);
+}
+#header.scrolled{
+    background-color: #3d405b;
+}
+
+#navigation{
+    width: 300px;
+    left: 0;
+    position: absolute;
+    background-color: #3d405b;
+    min-height: 100vh;
+    transform: translateX(-300px);
+    transition: transform 0.4s;
+}
+#navigation a{
+    display: block;
+    opacity: 0.8;
+    text-transform: uppercase;
+}
+#navigation a:hover{
+    opacity: 1;
+}
+
+.contain-own{
+    padding: 15px;
+    max-width: 1100px;
+    margin: auto;
+}
+/*Header End*/
+
+
+/*Intro Start*/
+#intro{
+background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../images/portfolioimg_reducedsize.jpg");
+   min-height: 500px;
+    background-size: cover;
+
+}
+
+.intro-text{
+    position: relative;
+    top: 100px;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
+.intro-text h1 strong, .intro-text h1 em{
+    display: block;
+    padding: 5px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #e07a5f;
+
+}
+.call-to-action{
+    margin: 20px 0;
+}
+.intro-text .call-to-action{
+    width: 60%;
+    margin: auto;
+}
+.intro-text .btn{
+    display: block;
+    margin: 10px 0;
+
+}
+.btn{
+   padding: 15px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+}
+.btn i{
+    margin-right: 10px;
+}
+.btn-highlight{
+    color: white;
+    background-color: #3d405b;
+}
+.btn-bg{
+    color: white;
+    background-color: #e07a5f;
+}
+/*Intro End*/
