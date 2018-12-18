@@ -288,3 +288,49 @@ background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../
     display: block;
 }
 /*History end*/
+/*Start skills section*/
+#skills{
+    color: white;
+    background-image: linear-gradient(rgba(61,64,91,0.7),rgba(61,64,91,1)),url("../images/portfolioimg_reducedsize.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    align-content: center;
+
+}
+.skill{
+    /*margin: 20px 0;*/
+    text-align: center;
+    /*position: relative;*/
+    font-size: 1.2em;
+
+}
+.skill .skill-icon svg{
+    height: 100px;
+    fill: none;
+    stroke: #e07a5f;
+    stroke-width: 5px;
+    stroke-dasharray: 251 251;
+}
+.skill-icon.first svg{
+    stroke-dashoffset: 50;
+}
+.skill-icon.second svg{
+    stroke-dashoffset: 30;
+}
+.skill-icon.third svg{
+    stroke-dashoffset: 70;
+}
+.skill-icon.fourth svg{
+    stroke-dashoffset: 50;
+}
+.soft-skills .skill-rating{
+    position: relative;
+    top: -75px;
+    font-size: 1.5em;
+}
+.soft-skills .skill-title{
+    font-size: 1.5em;
+    position: relative;
+    top: -20px;
+}
+/*Skills section End*/
