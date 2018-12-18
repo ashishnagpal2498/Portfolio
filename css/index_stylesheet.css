@@ -1,6 +1,6 @@
 *{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 body{
@@ -90,6 +90,7 @@ background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../
    min-height: 500px;
     background-size: cover;
 
+
 }
 
 .intro-text{
@@ -137,3 +138,153 @@ background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../
     background-color: #e07a5f;
 }
 /*Intro End*/
+
+/*About me - Start*/
+#about-me{
+    background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../images/portfolioimg_reducedsize.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20px 0;
+    color: #ffffff;
+    text-align: center;
+
+}
+.whoiam-text h4{
+    padding: 20px;
+    font-size: 2em;
+    text-transform: uppercase;
+
+}
+.whoiam-text p{
+    padding: 10px 0;
+}
+
+
+/*About me - End*/
+
+/*Services start*/
+.service{
+    margin: 20px 0;
+    text-align: center;
+}
+.service:hover .service-icon{
+    background-color: #e07a5f;
+    outline-offset: 5px;
+    outline-color: #e07a5f;
+    /*border: 2px solid #e07a5f;*/
+}
+.service-icon{
+    font-size: 3.5em;
+    margin: 30px 0;
+    background-color: rgba(0,0,0,0.1);
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    /*To make it block we need a firm block with and height*/
+    width: 110px;
+    height: 110px;
+    transform: rotate(45deg);
+    outline: 5px solid transparent;
+    outline-offset: 0;
+    transition: all 0.4s;
+}
+.service-icon i{
+    transform: rotate(-45deg);
+}
+.service-title{
+    font-size: 2em;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+.service-desc{
+    padding: 5px 0;
+}
+/*Sevices ke service par when we hover , then it should show the content */
+#services .service:hover .service-desc{
+    opacity: 1;
+}
+#services .service-desc{
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+/*Services end*/
+/*History start*/
+#history{
+    background-color: #e07a5f;
+    color: white;
+
+}
+/*History container*/
+.history{
+    margin: 30px 0;
+}
+.history-title .icon{
+    color: #3d405b;
+    display: inline-block;
+    margin-right: 5px;
+}
+.history-title{
+    font-size: 1.2em;
+    padding: 10px 0;
+}
+.history-title .text{
+    display: inline-block;
+}
+
+
+
+.events-container{
+    margin: 30px 0;
+    position: relative;
+}
+.events-container::before{
+    content: '';
+    display: block;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+    width: 25px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.event-date{
+    font-size: 1.1em;
+    font-style: italic;
+    opacity: 0.9;
+    padding: 10px 0;
+    padding-left: 40px;
+    position: relative;
+}
+.event-date:before{
+    content: '';
+    display: block;
+    background-color: #3d405b;
+    width: 25px;
+    height: 25px;
+    left: 0px;
+    border-radius: 100px;
+    position: absolute;
+}
+.event-title{
+    padding: 15px;
+    font-size: 1.6em;
+    font-weight: bold;
+    padding-left: 40px;
+}
+.event-result{
+    font-style: italic;
+    font-size: 1.1em;
+    opacity: 0.9;
+    padding: 10px 0;
+    padding-left: 40px;
+
+}
+.event-desc{
+    padding: 5px 0;
+    padding-left: 40px;
+}
+#history .btn{
+    display: block;
+}
+/*History end*/
