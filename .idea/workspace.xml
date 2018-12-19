@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7647406-ab2b-4d34-9e09-fa4ae89f4650" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/images/banega-swachh-india-650_052617023343.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index_stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index_stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -20,10 +22,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="224" column="20" lean-forward="true" selection-start-line="224" selection-start-column="20" selection-end-line="224" selection-end-column="20" />
+            <state relative-caret-position="49">
+              <caret line="370" column="39" lean-forward="true" selection-start-line="370" selection-start-column="39" selection-end-line="370" selection-end-column="39" />
               <folding>
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#7;n#body#0;n#html#0;n#!!top" />
@@ -40,8 +43,8 @@
       <file leaf-file-name="index_stylesheet.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/index_stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="300" column="3" selection-start-line="300" selection-start-column="3" selection-end-line="300" selection-end-column="3" />
+            <state relative-caret-position="364">
+              <caret line="482" column="22" selection-start-line="482" selection-start-column="22" selection-end-line="482" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -78,9 +81,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="682" />
-    <option name="width" value="687" />
+    <option name="width" value="683" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -152,25 +155,25 @@
       <option name="presentableId" value="Default" />
       <updated>1544534706825</updated>
       <workItem from="1544534708562" duration="10734000" />
-      <workItem from="1544974798725" duration="29982000" />
+      <workItem from="1544974798725" duration="36657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40716000" />
+    <option name="totallyTimeSpent" value="47391000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="682" y="0" width="687" height="735" extended-state="0" />
+    <frame x="682" y="0" width="683" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.32973805" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33178294" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22056384" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22056384" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -195,6 +198,7 @@
           <caret line="681" column="10" lean-forward="true" selection-start-line="681" selection-start-column="10" selection-end-line="681" selection-end-column="10" />
           <folding>
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#7;n#body#0;n#html#0;n#!!top" />
@@ -209,10 +213,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="224" column="20" lean-forward="true" selection-start-line="224" selection-start-column="20" selection-end-line="224" selection-end-column="20" />
+        <state relative-caret-position="49">
+          <caret line="370" column="39" lean-forward="true" selection-start-line="370" selection-start-column="39" selection-end-line="370" selection-end-column="39" />
           <folding>
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#7;n#body#0;n#html#0;n#!!top" />
@@ -227,8 +232,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index_stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="300" column="3" selection-start-line="300" selection-start-column="3" selection-end-line="300" selection-end-column="3" />
+        <state relative-caret-position="364">
+          <caret line="482" column="22" selection-start-line="482" selection-start-column="22" selection-end-line="482" selection-end-column="22" />
         </state>
       </provider>
     </entry>

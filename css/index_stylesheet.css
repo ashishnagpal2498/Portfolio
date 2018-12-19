@@ -14,6 +14,14 @@ ul{
 }
 
 /*Header Start*/
+
+.section-title{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
 #header{
     transition: background-color 0.3s;
     color: white;
@@ -298,11 +306,15 @@ background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../
 
 }
 .skill{
-    /*margin: 20px 0;*/
+    margin: 50px 0;
     text-align: center;
     /*position: relative;*/
     font-size: 1.2em;
+    position: relative;
 
+}
+.soft-skills .skill{
+    margin: 0;
 }
 .skill .skill-icon svg{
     height: 100px;
@@ -311,17 +323,20 @@ background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../
     stroke-width: 5px;
     stroke-dasharray: 251 251;
 }
+.skill-title{
+    text-transform: uppercase;
+}
 .skill-icon.first svg{
-    stroke-dashoffset: 50;
+    stroke-dashoffset: 50px;
 }
 .skill-icon.second svg{
-    stroke-dashoffset: 30;
+    stroke-dashoffset: 30px;
 }
 .skill-icon.third svg{
-    stroke-dashoffset: 70;
+    stroke-dashoffset: 70px;
 }
 .skill-icon.fourth svg{
-    stroke-dashoffset: 50;
+    stroke-dashoffset: 50px;
 }
 .soft-skills .skill-rating{
     position: relative;
@@ -333,4 +348,148 @@ background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../
     position: relative;
     top: -20px;
 }
+
+/*Technical skills*/
+.technical-skills{
+    padding-bottom: 40px;
+}
+.technical-skills .skill-rating{
+    font-size: 1.2em;
+}
+.technical-skills .skill{
+    position: relative;
+
+}
+.technical-skills .skill-title{
+    font-size: 1.5em;
+}
+.technical-skills .skill-icon::after{
+    content: '';
+    width: 80%;
+    background-color: #e07a5f;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+}
+.technical-skills .skill-icon::before{
+    content: '';
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    height: 25px;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+}
 /*Skills section End*/
+
+/*Portfolio Start*/
+
+#portfolio{
+    background-color: #dddddd;
+    padding: 20px;
+}
+.work{
+    margin: 20px 0;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.work:hover .work-text{
+    opacity: 1;
+}
+.work-text{
+    background-color: #ffffff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+.work-text h4{
+    font-size: 1.5em;
+    padding: 10px 0;
+}
+.work.one{
+    background-image: url("../images/banega-swachh-india-650_052617023343.jpg");
+    background-size: cover;
+}
+.work-icon{
+    position: absolute;
+    /*height: 100px;*/
+    /*width: 100px;*/
+    border-radius: 50%;
+    background-color: #3d405b;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+
+/*Portfolio End*/
+
+/*By Numbers  start*/
+
+.fact{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1.7em;
+}
+.fact-iocn{
+    font-size: 2.2em;
+    color: #3d405b;
+    padding: 10px 0;
+}
+.fact-text{
+    font-weight: bold;
+}
+/*By numbers end*/
+
+/*Testimonal section - start*/
+#testimonal{
+    color: #ffffff;
+    background-color: #191c35;
+}
+.testimonal{
+    margin: 30px auto;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    text-align: center;
+    background-color: #3d405b;
+    max-width: 350px;
+}
+
+.testimonal img{
+    height: 120px;
+    width: 120px;
+    border: 5px solid rgba(0,0,0,0.2);
+    border-bottom: 5px solid #e07a5f;
+    margin-top: -20px;
+}
+.testimonal-author .name{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.7em;
+    padding: 10px 0;
+}
+.testimonal-author .position{
+    padding: 10px 0;
+    font-style: italic;
+    opacity: 0.9;
+    font-size: 1.1em;
+
+}
+.testimonal-content .text{
+    padding: 20px;
+
+}
+.testimonal-content{
+    position: relative;
+}
+.testimonal-content .icon{
+    font-size:1.7em ;
+    color: #e07a5f;
+    position: absolute;
+    left: 10px;
+    top: -15px;
+}
+/*Testimonal End*/
