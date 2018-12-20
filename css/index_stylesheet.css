@@ -36,6 +36,9 @@ ul{
     display: inline-block;
     padding: 15px;
 }
+#header:hover{
+    background-color: #3d405b;
+}
 #logo{
     width: 70%;
     display: inline-block;
@@ -493,3 +496,235 @@ background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../
     top: -15px;
 }
 /*Testimonal End*/
+
+/*Blog Start*/
+#blog{
+    background-color: #dddddd;
+}
+.post{
+    margin: 20px 0;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    background-color: white;
+    text-align: center;
+    color: #3d405b;
+}
+.post-img{
+    height: 150px;
+    overflow: hidden;
+}
+.post-author{
+    margin-top: -50px;
+}
+.post-author .author-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+    border: 5px solid rgba(0,0,0,0.2);
+    border-bottom: 5px solid #e07a5f ;
+}
+.author-name{
+    padding: 5px 0;
+}
+.author-job{
+    font-size: 0.9em;
+    font-style: italic;
+}
+.post-title{
+    padding: 20px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.post-reaction{
+    background-color: rgba(0,0,0,0.1);
+}
+.reaction{
+    display: inline-block;
+    width: 32%;
+}
+.reaction .icon{
+    display: inline-block;
+    padding: 15px 0;
+}
+.reaction .text{
+    padding: 15px 0;
+    display: inline-block;
+}
+/*Blog End*/
+
+/*Get in touch start*/
+#get-in-touch{
+    background-color: #191c35;
+    color: #ffffff;
+}
+/*Getin touch end*/
+
+/*Contact us section*/
+
+#contact-us{
+    background-color: #dddddd;
+}
+form{
+    padding: 20px;
+    background-color: white;
+    margin: 30px 0;
+}
+form input, form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    outline: none;
+    background-color: #dddddd;
+    transition: border 0.4s;
+    border: 3px solid transparent;
+}
+form input:hover,form input:focus
+,form textarea:hover,form textarea:focus {
+    border: 3px solid #e07a5f;
+}
+form button{
+    color: #ffffff;
+    background-color: #e07a5f;
+    margin-top: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+/*Contact us section*/
+
+/*Footer start*/
+#footer{
+    background-color: #191c35;
+    color: #ffffff;
+    text-align: center;
+}
+#footer .social-link{
+    margin: 20px;
+    margin-bottom: 40px;
+}
+#footer .link{
+    display: inline-block;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 1.2em;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    border: 3px solid transparent;
+    transition: border 0.4s;
+}
+#footer .link:hover{
+    color: #e07a5f;
+    border-color: #e07a5f;
+}
+/*End*/
+
+/*Media Queries*/
+
+/*Tablet view*/
+@media screen and (min-width: 750px){
+    #header{
+
+    }
+    #navigation{
+        transform: translateX(0px);
+        background-color: inherit;
+        width: 100%;
+        padding-left: 20px ;
+        /*Previously min-height was given some value*/
+        min-height: auto;
+        /*previously position was diff*/
+        position: static;
+    }
+    /*Remove nav toggle*/
+    #nav-toggle{
+        display: none;
+    }
+    #navigation li{
+        display: inline-block;
+    }
+    #intro{
+        min-height: 600px;
+    }
+    .intro-text{
+        top: 200px;
+    }
+    .intro-text .btn{
+        display: inline-block;
+        margin: 15px;
+    }
+    .service,
+    .history,
+    .skill,
+    .work,
+    .fact,
+    .testimonal,
+    .post{
+        display: inline-block;
+        width: 47.5%;
+        margin: 1%;
+    }
+
+    #history .call-to-action{
+        display: inline-block;
+        width: 200px;
+        margin: auto;
+    }
+    #skills{
+        padding-bottom: 40px;
+    }
+    .testimonal{
+        margin-top: 80px;
+    }
+    .testimonal-container{
+        text-align: center;
+    }
+    #get-in-touch{
+        text-align: center;
+    }
+    #blog{
+        text-align: center;
+    }
+}
+
+
+/*Media query for Desktop*/
+
+@media screen and (min-width: 1000px)
+{
+    #header #logo{
+        display: inline-block;
+        width: auto;
+    }
+    #header #navigation{
+        display: inline-block;
+        width: auto;
+    }
+    .whoiam,#contact-us .container-own{
+        max-width: 600px;
+        margin: auto;
+    }
+    #contact-us{
+        padding-bottom: 50px;
+    }
+    .service,
+    .skill,
+    .work,
+    .fact,
+    .testimonal,.post{
+        width: 31%;
+        margin: 1%;
+    }
+    .skill{
+        margin-top: 50px;
+    }
+    .testimonal{
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    .testimonal.second{
+        transform: scale(1.1);
+    }
+    #skills,#by-numbers{
+        text-align: center;
+    }
+}
