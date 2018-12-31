@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Ashish Nagpal Portfolio</title>
+
+    <script src="js/jquery-3.3.1.js"></script>
     <link href="css/index_stylesheet.css" rel="stylesheet">
     <script src="js/index_frontend.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 
 </head>
-<body>
+<body >
 <!--Header - container - named as container own-->
 <header id="header">
     <div class="container-own">
@@ -23,11 +25,12 @@
 
         <div id="navigation">
             <ul>
+                <li id="closebtn"><i class="fas fa-times"></i></li>
                 <li><a href="">Home</a> </li>
-                <li><a href="">About </a></li>
-                <li><a href="">History</a> </li>
-                <li><a href=""> Portfolio</a></li>
-                <li><a href=""> Contact </a> </li>
+                <li><a href="#services">About </a></li>
+                <li><a href="#history">History</a> </li>
+                <li><a href="#portfolio"> Portfolio</a></li>
+                <li><a href="#contact-us"> Contact </a> </li>
             </ul>
         </div>
     </div>
@@ -35,16 +38,16 @@
 <!--End of header element-->
 
 <!--Intro section-->
-<section id="intro">
+<section id="intro" >
     <div class="container-own">
         <div class="intro-text">
             <h1> Hi I'M <strong>Ashish Nagpal </strong> I'am a <em>Full Stack Developer</em></h1>
         <!--Div for buttons-->
         <div class="call-to-action">
-            <a href="" class="btn btn-bg">
+            <a href="mailto:ashishnagpal2498@gmail.com" class="btn btn-bg">
                 <i class="fas fa-user"></i>  Hire Me
             </a>
-            <a href="" class="btn btn-highlight">
+            <a href="Ashish-Nagpal%20Resume.docx" class="btn btn-highlight">
                 <i class="fas fa-download"></i>  My resume
             </a>
         </div>
@@ -57,11 +60,12 @@
     <div class="container-own">
         <div class="whoiam">
             <div class="whoiam-img">
-                <img src="images/car.jpg">
+                <img src="images/picture_with_lapi.jpg">
             </div>
             <div class="whoiam-text">
                 <h4>Hello</h4>
-                <p>Paragraph</p>
+                <p class="service-desc">I am a student who is passionate about web development. My best assets are my creativity , my feelings with technology and
+                my passion</p>
             </div>
         </div>
         <!--thIS includes section within a section becoz background img that is same-->
@@ -79,7 +83,8 @@
                         <h3>Web Designer</h3>
                     </div>
                     <div class="service-desc">
-                        <p>I am a web designer , love to build cool stuff.</p>
+                        <p>I am a web designer , love to build cool stuff. I have previously worked on HTML , CSS and Bootstrap .
+                        </p>
                     </div>
                 </div>
                 <div class="service">
@@ -90,7 +95,7 @@
                         <h3>Responsive UI</h3>
                     </div>
                     <div class="service-desc">
-                        <p>I am a web designer , love to build cool stuff.</p>
+                        <p>Have capability to design a Responsive UI of a web page using CSS or framework like Bootstrap.</p>
                     </div>
                 </div>
                 <div class="service">
@@ -101,7 +106,7 @@
                         <h3>Backend</h3>
                     </div>
                     <div class="service-desc">
-                        <p>I am a web designer , love to build cool stuff.</p>
+                        <p><br>Used Nodejs to handle server side request and render pages through it.</p>
                     </div>
                 </div>
                 <div class="service">
@@ -112,7 +117,7 @@
                         <h3>DB Design</h3>
                     </div>
                     <div class="service-desc">
-                        <p>I am a web designer , love to build cool stuff.</p>
+                        <p>Knowledge of basic database like MySQL and also using a framework Sequelize.</p>
                     </div>
                 </div>
             </div>
@@ -141,16 +146,16 @@
                 <div class="events-container">
                     <div class="event">
                     <div class="event-date">
-                        <p> 2016-2202</p>
+                        <p> 2015 - 2016</p>
                     </div>
                     <div class="event-title">
                         <p> New Era Public school </p>
                     </div>
                     <div class="event-result">
-                        <p>jkvdsvn</p>
+                        <p>Senior Secondary Education</p>
                     </div>
                     <div class="event-desc">
-                        <p>Random text</p>
+                        <p>Scored 90.5% in CBSE </p>
                     </div>
                 </div>
                     <div class="event">
@@ -161,10 +166,10 @@
                             <p> Northern India Engineering College </p>
                         </div>
                         <div class="event-result">
-                            <p>New Delhi</p>
+                            <p>Bachelor's Degree</p>
                         </div>
                         <div class="event-desc">
-                            <p>Computer Science engineering</p>
+                            <p>In Computer Science Engineering , maintaining a CGPA of 8.64 .</p>
                         </div>
                     </div>
                 </div>
@@ -176,7 +181,7 @@
                         <i class="fas fa-briefcase"></i>
                     </div>
                     <div class="text">
-                        <p>Training &emp Experience</p>
+                        <p>Training & Experience</p>
                     </div>
                 </div>
                 <!-- 2 )Now comes the events container which has date and events-->
@@ -192,12 +197,12 @@
                             <p>Campus Ambassador</p>
                         </div>
                         <div class="event-desc">
-                            <p>Working as a coding blocks campus am</p>
+                            <p>Working as a coding blocks campus ambassador</p>
                         </div>
                     </div>
                     <div class="event">
                         <div class="event-date">
-                            <p> 2017-2017</p>
+                            <p> 2017 (June to August) </p>
                         </div>
                         <div class="event-title">
                             <p> Coding Blocks </p>
@@ -206,7 +211,7 @@
                             <p>Data Structures and Algorithms </p>
                         </div>
                         <div class="event-desc">
-                            <p>A good hold on C++ language with concepts such as </p>
+                            <p>A good hold on C++ language with concepts such as Arrays, Stacks, Trees etc. </p>
                         </div>
                     </div>
                 </div>
@@ -214,7 +219,7 @@
             <div class="call-to-action">
 
                 <a href="" class="btn btn-highlight">
-                    <i class="fas fa-download"></i>  My resume
+                    <i class="fas fa-download"></i>  My Resume
                 </a>
             </div>
         </div>
@@ -252,7 +257,7 @@
                             </svg>
                         </div>
                         <div class="skill-rating">
-                            75%
+                            85%
                         </div>
                         <div class="skill-title">
                             Work In Team
@@ -280,7 +285,7 @@
                             </svg>
                         </div>
                         <div class="skill-rating">
-                            75%
+                            90%
                         </div>
                         <div class="skill-title">
                             Creativity
@@ -296,19 +301,19 @@
             </h2>
             <div class="skill-container">
                 <div class="skill">
-                    <div class="skill-icon">
+                    <div class="skill-icon one">
                         <!--Sgv-->
 
                     </div>
                     <div class="skill-rating">
-                        75%
+                        90%
                     </div>
                     <div class="skill-title">
                         HTML
                     </div>
                 </div>
                 <div class="skill">
-                    <div class="skill-icon">
+                    <div class="skill-icon two">
 
                     </div>
                     <div class="skill-rating">
@@ -319,7 +324,7 @@
                     </div>
                 </div>
                 <div class="skill">
-                    <div class="skill-icon">
+                    <div class="skill-icon three">
                         <!--Sgv-->
 
                     </div>
@@ -331,7 +336,7 @@
                     </div>
                 </div>
                 <div class="skill">
-                    <div class="skill-icon">
+                    <div class="skill-icon four">
                         <!--Sgv-->
 
                     </div>
@@ -359,8 +364,11 @@
         <div class="work-container">
             <div class="work one">
                 <div class="work-text">
-                    <h4>Project Name</h4>
-                    <p>Project Description -</p>
+                    <h4>ADGITM ALUMNI</h4>
+                    <p>The project involves connecting Alumni of our college in collaboration with our college administration.
+                    I have worked as front end web developer in the project. Its a reponsive website , build on HTML , CSS and BOOTSTRAP
+                        <a href="https://adgitmalumni.in">link</a>
+                    </p>
                 </div>
                 <div class="work-icon">
                     <i class="fas fa-paint-brush"></i>
@@ -369,8 +377,9 @@
             </div>
             <div class="work two">
                 <div class="work-text">
-                    <h4>Project Name</h4>
-                    <p>Project Description -</p>
+                    <h4>Simple Life - Frontend</h4>
+                    <p>Simple life is an e-commerce website frontend, designed for an organization who wants to bring back the effervecence of natrual
+                    soaps , candles and incense sticks in the market. <br> <br> </p>
                 </div>
                 <div class="work-icon">
                     <i class="fas fa-paint-brush"></i>
@@ -379,8 +388,9 @@
             </div>
             <div class="work three">
                 <div class="work-text">
-                    <h4>Project Name</h4>
-                    <p>Project Description -</p>
+                    <h4>@12 Project</h4>
+                    <p>The project involved revolutionizing the shoe industry by creating shoes of your own style. Anything to everything you want
+                    <br> <br> <br> </p>
                 </div>
                 <div class="work-icon">
                     <i class="fas fa-code"></i>
@@ -412,7 +422,7 @@
                     <i class="far fa-clock"></i>
                 </div>
                 <div class="fact-text">
-                    Working Hours
+                   30+ Working Hours / week
                 </div>
             </div>
         </div>
@@ -421,233 +431,233 @@
 <!--By numbers end-->
 
 <!--Testimonals Section start-->
-<section id="testimonal">
-    <div class="container-own">
-        <div class="section-title">
-            TESTIMONALs
-        </div>
-        <div class="testimonal-container">
-            <div class="testimonal">
-                <div class="testimonal-author">
-                    <div class="img">
-                        <img src="img">
-                    </div>
-                    <div class="name">
-                        Abcd
-                    </div>
-                    <div class="position">
-                        Ceo at google
-                    </div>
-                </div>
-                <div class="testimonal-content">
-                    <div class="icon">
-                        <i class="fas fa-quote-left"></i>
-                    </div>
-                    <div class="text">
-                        svdnlkkkkkkkksdvkdsknvnsdvndsvndsvndvsdvsdvsdvssdv
-                    </div>
-                </div>
-            </div>
-            <!--Testimonal 2-->
-            <div class="testimonal second">
-                <div class="testimonal-author">
-                    <div class="img">
-                        <img src="img">
-                    </div>
-                    <div class="name">
-                        Abcd
-                    </div>
-                    <div class="position">
-                        Ceo at google
-                    </div>
-                </div>
-                <div class="testimonal-content">
-                    <div class="icon">
-                        <i class="fas fa-quote-left"></i>
-                    </div>
-                    <div class="text">
-                        svdnlkkkkkkkksdvkdsknvnsdvndsvndsvndvsdvsdvsdvssdv
-                    </div>
-                </div>
-            </div>
-            <!--testimonal 3-->
-            <div class="testimonal">
-                <div class="testimonal-author">
-                    <div class="img">
-                        <img src="img">
-                    </div>
-                    <div class="name">
-                        LMNO
-                    </div>
-                    <div class="position">
-                        Works at Facebook
-                    </div>
-                </div>
-                <div class="testimonal-content">
-                    <div class="icon">
-                        <i class="fas fa-quote-left"></i>
-                    </div>
-                    <div class="text">
-                        svdnlkkkkkkkksdvkdsknvnsdvndsvndsvndvsdvsdvsdvssdv
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!--<section id="testimonal">-->
+    <!--<div class="container-own">-->
+        <!--<div class="section-title">-->
+            <!--TESTIMONALs-->
+        <!--</div>-->
+        <!--<div class="testimonal-container">-->
+            <!--<div class="testimonal">-->
+                <!--<div class="testimonal-author">-->
+                    <!--<div class="img">-->
+                        <!--<img src="img">-->
+                    <!--</div>-->
+                    <!--<div class="name">-->
+                        <!--Abcd-->
+                    <!--</div>-->
+                    <!--<div class="position">-->
+                        <!--Ceo at google-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="testimonal-content">-->
+                    <!--<div class="icon">-->
+                        <!--<i class="fas fa-quote-left"></i>-->
+                    <!--</div>-->
+                    <!--<div class="text">-->
+                        <!--svdnlkkkkkkkksdvkdsknvnsdvndsvndsvndvsdvsdvsdvssdv-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;Testimonal 2&ndash;&gt;-->
+            <!--<div class="testimonal second">-->
+                <!--<div class="testimonal-author">-->
+                    <!--<div class="img">-->
+                        <!--<img src="img">-->
+                    <!--</div>-->
+                    <!--<div class="name">-->
+                        <!--Abcd-->
+                    <!--</div>-->
+                    <!--<div class="position">-->
+                        <!--Ceo at google-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="testimonal-content">-->
+                    <!--<div class="icon">-->
+                        <!--<i class="fas fa-quote-left"></i>-->
+                    <!--</div>-->
+                    <!--<div class="text">-->
+                        <!--svdnlkkkkkkkksdvkdsknvnsdvndsvndsvndvsdvsdvsdvssdv-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;testimonal 3&ndash;&gt;-->
+            <!--<div class="testimonal">-->
+                <!--<div class="testimonal-author">-->
+                    <!--<div class="img">-->
+                        <!--<img src="img">-->
+                    <!--</div>-->
+                    <!--<div class="name">-->
+                        <!--LMNO-->
+                    <!--</div>-->
+                    <!--<div class="position">-->
+                        <!--Works at Facebook-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="testimonal-content">-->
+                    <!--<div class="icon">-->
+                        <!--<i class="fas fa-quote-left"></i>-->
+                    <!--</div>-->
+                    <!--<div class="text">-->
+                        <!--svdnlkkkkkkkksdvkdsknvnsdvndsvndsvndvsdvsdvsdvssdv-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</section>-->
 
 <!--Testimonal section end-->
 <!--Blog start-->
-<section id="blog">
-    <div class="container-own">
-        <h2 class="section-title">
-            Latest Posts
-        </h2>
-        <div class="post-container">
-            <div class="post">
-                <div class="post-img">
-                    <img src="images/blog_image.jpg"
-                    <!--Insert image here-->
-                </div>
-                <div class="post-author">
-                    <div class="author-img">
-                        <!--Insert author image here-->
-                    </div>
-                    <div class="author-name">
-                        <p>Hichem med</p>
-                    </div>
-                    <div class="author-job">
-                        Full stack developer
-                    </div>
-                </div>
-                <div class="post-title">
-                    <p>How to become a full stack developer</p>
-                </div>
-                <div class="post-reaction">
-                    <div class="reaction">
-                        <div class="icon">
-                            <i class="far fa-thumbs-up"></i>
-                        </div>
-                        <div class="text">
-                            <p>871</p>
-                        </div>
-                    </div>
-                    <div class="reaction">
-                        <div class="icon">
-                            <i class="far fa-comment"></i>
-                        </div>
-                        <div class="text">
-                            <p>871</p>
-                        </div>
-                    </div>
-                    <div class="reaction">
-                        <div class="icon">
-                            <i class="fas fa-share"></i>
-                        </div>
-                        <div class="text">
-                            <p>871</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Post section 2-->
-            <div class="post">
-                <div class="post-img">
-                    <!--Insert image here-->
-                    <img style="position: relative;top: -300px" src="images/blog_img.jpg">
+<!--<section id="blog">-->
+    <!--<div class="container-own">-->
+        <!--<h2 class="section-title">-->
+            <!--Latest Posts-->
+        <!--</h2>-->
+        <!--<div class="post-container">-->
+            <!--<div class="post">-->
+                <!--<div class="post-img">-->
+                    <!--<img src="images/blog_image.jpg"-->
+                    <!--&lt;!&ndash;Insert image here&ndash;&gt;-->
+                <!--</div>-->
+                <!--<div class="post-author">-->
+                    <!--<div class="author-img">-->
+                        <!--&lt;!&ndash;Insert author image here&ndash;&gt;-->
+                    <!--</div>-->
+                    <!--<div class="author-name">-->
+                        <!--<p>Hichem med</p>-->
+                    <!--</div>-->
+                    <!--<div class="author-job">-->
+                        <!--Full stack developer-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="post-title">-->
+                    <!--<p>How to become a full stack developer</p>-->
+                <!--</div>-->
+                <!--<div class="post-reaction">-->
+                    <!--<div class="reaction">-->
+                        <!--<div class="icon">-->
+                            <!--<i class="far fa-thumbs-up"></i>-->
+                        <!--</div>-->
+                        <!--<div class="text">-->
+                            <!--<p>871</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="reaction">-->
+                        <!--<div class="icon">-->
+                            <!--<i class="far fa-comment"></i>-->
+                        <!--</div>-->
+                        <!--<div class="text">-->
+                            <!--<p>871</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="reaction">-->
+                        <!--<div class="icon">-->
+                            <!--<i class="fas fa-share"></i>-->
+                        <!--</div>-->
+                        <!--<div class="text">-->
+                            <!--<p>871</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;Post section 2&ndash;&gt;-->
+            <!--<div class="post">-->
+                <!--<div class="post-img">-->
+                    <!--&lt;!&ndash;Insert image here&ndash;&gt;-->
+                    <!--<img style="position: relative;top: -300px" src="images/blog_img.jpg">-->
 
-                </div>
-                <div class="post-author">
-                    <div class="author-img">
-                        <!--Insert author image here-->
-                    </div>
-                    <div class="author-name">
-                        <p>Hichem med</p>
-                    </div>
-                    <div class="author-job">
-                        Full stack developer
-                    </div>
-                </div>
-                <div class="post-title">
-                    <p>How to become a full stack developer</p>
-                </div>
-                <div class="post-reaction">
-                    <div class="reaction">
-                        <div class="icon">
-                            <i class="far fa-thumbs-up"></i>
-                        </div>
-                        <div class="text">
-                            <p>871</p>
-                        </div>
-                    </div>
-                    <div class="reaction">
-                        <div class="icon">
-                            <i class="far fa-comment"></i>
-                        </div>
-                        <div class="text">
-                            <p>871</p>
-                        </div>
-                    </div>
-                    <div class="reaction">
-                        <div class="icon">
-                            <i class="fas fa-share"></i>
-                        </div>
-                        <div class="text">
-                            <p>871</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Post number 3 -->
-            <div class="post">
-                <div class="post-img">
-                    <!--Insert image here-->
-                    <img src="images/banega-swachh-india-650_052617023343.jpg">
-                </div>
-                <div class="post-author">
-                    <div class="author-img">
-                        <!--Insert author image here-->
-                    </div>
-                    <div class="author-name">
-                        <p>Hichem med</p>
-                    </div>
-                    <div class="author-job">
-                        Full stack developer
-                    </div>
-                </div>
-                <div class="post-title">
-                    <p>How to become a full stack developer</p>
-                </div>
-                <div class="post-reaction">
-                    <div class="reaction">
-                        <div class="icon">
-                            <i class="far fa-thumbs-up"></i>
-                        </div>
-                        <div class="text">
-                            <p>871</p>
-                        </div>
-                    </div>
-                    <div class="reaction">
-                        <div class="icon">
-                            <i class="far fa-comment"></i>
-                        </div>
-                        <div class="text">
-                            <p>871</p>
-                        </div>
-                    </div>
-                    <div class="reaction">
-                        <div class="icon">
-                            <i class="fas fa-share"></i>
-                        </div>
-                        <div class="text">
-                            <p>871</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+                <!--</div>-->
+                <!--<div class="post-author">-->
+                    <!--<div class="author-img">-->
+                        <!--&lt;!&ndash;Insert author image here&ndash;&gt;-->
+                    <!--</div>-->
+                    <!--<div class="author-name">-->
+                        <!--<p>Hichem med</p>-->
+                    <!--</div>-->
+                    <!--<div class="author-job">-->
+                        <!--Full stack developer-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="post-title">-->
+                    <!--<p>How to become a full stack developer</p>-->
+                <!--</div>-->
+                <!--<div class="post-reaction">-->
+                    <!--<div class="reaction">-->
+                        <!--<div class="icon">-->
+                            <!--<i class="far fa-thumbs-up"></i>-->
+                        <!--</div>-->
+                        <!--<div class="text">-->
+                            <!--<p>871</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="reaction">-->
+                        <!--<div class="icon">-->
+                            <!--<i class="far fa-comment"></i>-->
+                        <!--</div>-->
+                        <!--<div class="text">-->
+                            <!--<p>871</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="reaction">-->
+                        <!--<div class="icon">-->
+                            <!--<i class="fas fa-share"></i>-->
+                        <!--</div>-->
+                        <!--<div class="text">-->
+                            <!--<p>871</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;Post number 3 &ndash;&gt;-->
+            <!--<div class="post">-->
+                <!--<div class="post-img">-->
+                    <!--&lt;!&ndash;Insert image here&ndash;&gt;-->
+                    <!--<img src="images/banega-swachh-india-650_052617023343.jpg">-->
+                <!--</div>-->
+                <!--<div class="post-author">-->
+                    <!--<div class="author-img">-->
+                        <!--&lt;!&ndash;Insert author image here&ndash;&gt;-->
+                    <!--</div>-->
+                    <!--<div class="author-name">-->
+                        <!--<p>Hichem med</p>-->
+                    <!--</div>-->
+                    <!--<div class="author-job">-->
+                        <!--Full stack developer-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="post-title">-->
+                    <!--<p>How to become a full stack developer</p>-->
+                <!--</div>-->
+                <!--<div class="post-reaction">-->
+                    <!--<div class="reaction">-->
+                        <!--<div class="icon">-->
+                            <!--<i class="far fa-thumbs-up"></i>-->
+                        <!--</div>-->
+                        <!--<div class="text">-->
+                            <!--<p>871</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="reaction">-->
+                        <!--<div class="icon">-->
+                            <!--<i class="far fa-comment"></i>-->
+                        <!--</div>-->
+                        <!--<div class="text">-->
+                            <!--<p>871</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="reaction">-->
+                        <!--<div class="icon">-->
+                            <!--<i class="fas fa-share"></i>-->
+                        <!--</div>-->
+                        <!--<div class="text">-->
+                            <!--<p>871</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</section>-->
 <!--Blog end-->
 <!--get in touch -->
 <section id="get-in-touch">
@@ -655,13 +665,13 @@
         <div class="services-container">
             <div class="service">
                 <div class="service-icon">
-                    <i class="fas fa-location-arrow"></i>
+                    <i class="fas fa-map-marker"></i>
                 </div>
                 <div class="service-title">
                     <h3>Location</h3>
                 </div>
                 <div class="service-desc">
-                    <p>Delhi India</p>
+                    <p>Delhi , India</p>
                 </div>
             </div>
             <div class="service">
@@ -669,10 +679,10 @@
                     <i class="fas fa-phone"></i>
                 </div>
                 <div class="service-title">
-                    <h3>Tel</h3>
+                    <h3>Phone</h3>
                 </div>
                 <div class="service-desc">
-                    <p>+91</p>
+                    <p>+917982187284</p>
                 </div>
             </div>
             <div class="service">
@@ -683,7 +693,7 @@
                     <h3>Email</h3>
                 </div>
                 <div class="service-desc">
-                    <p>Id</p>
+                    <p>ashishnagpal2498@gmail.com</p>
                 </div>
             </div>
         </div>
@@ -694,9 +704,9 @@
     <div class="container-own">
         <div class="section-title">Contact</div>
         <form action="" method="">
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="email" required>
-            <textarea placeholder="Your message"></textarea>
+            <input type="text" placeholder="Name" title="Enter Name" required>
+            <input type="email" placeholder="Email" title="Enter Email" required>
+            <textarea name="contact-msg" placeholder="Your message" rows="4"></textarea>
         <button class="btn" type="submit" > Send your message</button>
         </form>
     </div>
@@ -704,29 +714,44 @@
 <!--ENd of COntact us section-->
 
 <!--Map section-->
-<section id="map">
-    <div class="mapouter">
-        <div class="gmap_canvas">
-            <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=india&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-            <a href="https://www.crocothemes.net">
-                wordpress themes by crocothemes.net</a>
-        </div><style>.mapouter{text-align:right;height:340px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:340px;width:100%;}
-    </style>
-    </div>
-</section>
+<!--<section id="map">-->
+    <!--<div class="mapouter">-->
+        <!--<div class="gmap_canvas">-->
+            <!--<iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=india&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>-->
+            <!--<a href="https://www.crocothemes.net">-->
+                <!--wordpress themes by crocothemes.net</a>-->
+        <!--</div><style>.mapouter{text-align:right;height:340px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:340px;width:100%;}-->
+    <!--</style>-->
+    <!--</div>-->
+<!--</section>-->
 <footer id="footer">
+    <section id="footersecton">
+
+
     <div class="container-own">
         <div class="social-link"> <div class="link">
-            <i class="fab fa-facebook-f"></i>
+            <a href="https://www.facebook.com/ashishnagpal2498" target="_blank" title="Facebook">   <i class="fab fa-facebook-f"></i> </a>
         </div>
         <div class="link">
-        <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/ashish_nagpal24" target="_blank" title="Twitter Profile">  <i class="fab fa-twitter"></i> </a>
         </div>
         <div class="link">
-        <i class="fab fa-github"></i>
+            <a href="https://github.com/ashishnagpal2498" target="_blank" title="Github Profile"> <i class="fab fa-github"></i></a>
         </div>
+            <div class="link">
+                <a href="https://www.linkedin.com/in/ashish-nagpal24/" title="Ashish-Nagpal LinkedIn" target="_blank"> <i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ashishnagpal 2018</p>
         </div>
     </div>
+    </section>
 </footer>
+<section id="side-button">
+    <div class="navigate-up">
+       <a href="#intro"><i class="fas fa-angle-up"></i> </a>
+    </div>
+</section>
 </body>
 </html>

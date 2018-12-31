@@ -92,14 +92,26 @@ ul{
     max-width: 1100px;
     margin: auto;
 }
+#closebtn{
+    text-align: right;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+#closebtn:hover{
+    cursor: pointer;
+
+}
 /*Header End*/
 
 
 /*Intro Start*/
 #intro{
-background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../images/portfolioimg_reducedsize.jpg");
+background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../images/cover_image_for_.jpg");
    min-height: 500px;
+    background-position: top;
     background-size: cover;
+    position: relative;
+
 
 
 }
@@ -208,8 +220,13 @@ background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../
     padding: 10px 0;
     text-transform: uppercase;
 }
+.service-title h3{
+    letter-spacing: 1.5px;
+}
 .service-desc{
-    padding: 5px 0;
+    padding: 8px 0;
+    font-size: 20px;
+    font-style: normal;
 }
 /*Sevices ke service par when we hover , then it should show the content */
 #services .service:hover .service-desc{
@@ -224,6 +241,7 @@ background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../
 #history{
     background-color: #e07a5f;
     color: white;
+    padding-bottom: 30px;
 
 }
 /*History container*/
@@ -242,8 +260,6 @@ background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../
 .history-title .text{
     display: inline-block;
 }
-
-
 
 .events-container{
     margin: 30px 0;
@@ -330,16 +346,16 @@ background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../
     text-transform: uppercase;
 }
 .skill-icon.first svg{
-    stroke-dashoffset: 50px;
+    stroke-dashoffset: 55px;
 }
 .skill-icon.second svg{
-    stroke-dashoffset: 30px;
+    stroke-dashoffset: 35px;
 }
 .skill-icon.third svg{
-    stroke-dashoffset: 70px;
+    stroke-dashoffset: 55px;
 }
 .skill-icon.fourth svg{
-    stroke-dashoffset: 50px;
+    stroke-dashoffset: 25px;
 }
 .soft-skills .skill-rating{
     position: relative;
@@ -366,16 +382,76 @@ background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../
 .technical-skills .skill-title{
     font-size: 1.5em;
 }
-.technical-skills .skill-icon::after{
+.technical-skills .skill-icon.one::after{
     content: '';
-    width: 80%;
+    width: 90%;
     background-color: #e07a5f;
     height: 25px;
     position: absolute;
     left: 0;
     bottom: -30px;
 }
-.technical-skills .skill-icon::before{
+.technical-skills .skill-icon.one::before{
+    content: '';
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    height: 25px;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+}
+
+/*Two Technical Skill Rating*/
+.technical-skills .skill-icon.two::after{
+    content: '';
+    width: 85%;
+    background-color: #e07a5f;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+}
+.technical-skills .skill-icon.two::before{
+    content: '';
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    height: 25px;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+}
+
+/*Three - Technical skill rating*/
+.technical-skills .skill-icon.three::after{
+    content: '';
+    width: 65%;
+    background-color: #e07a5f;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+}
+.technical-skills .skill-icon.three::before{
+    content: '';
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    height: 25px;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+}
+
+/*Four - Rating of the Technical Skill*/
+.technical-skills .skill-icon.four::after{
+    content: '';
+    width: 75%;
+    background-color: #e07a5f;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+}
+.technical-skills .skill-icon.four::before{
     content: '';
     width: 100%;
     background-color: rgba(0,0,0,0.5);
@@ -394,27 +470,52 @@ background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../
 }
 .work{
     margin: 20px 0;
-    padding: 20px;
+    /*padding: 20px;*/
+    min-height: 200px;
+    width: auto;
     position: relative;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 .work:hover .work-text{
     opacity: 1;
 }
+.work:hover .work-icon{
+    display: none;
+}
 .work-text{
-    background-color: #ffffff;
+    background-color: rgba(255,255,255,0.9);
     padding: 10px;
+    min-height: 200px;
     opacity: 0;
+    text-align: justify;
+    width: auto;
     transition: opacity 0.4s;
 }
 .work-text h4{
     font-size: 1.5em;
     padding: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #191c35;
 }
 .work.one{
-    background-image: url("../images/banega-swachh-india-650_052617023343.jpg");
+     background-image: url("../images/project_alumni.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+
+.work.two{
+    background-image: url("../images/simplelifedemo.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.work.three{
+    background-image: url("../images/at12.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .work-icon{
     position: absolute;
     /*height: 100px;*/
@@ -432,7 +533,13 @@ background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../
 /*Portfolio End*/
 
 /*By Numbers  start*/
+#by-numbers{
+    padding: 20px 0;
+    margin-bottom: 20px;
+    /*background-image: linear-gradient(rgba(61,64,91,0.7),rgba(61,64,91,1)), url("../images/bannerimage.jpg");*/
+    /*background-position-y:-300px ;*/
 
+}
 .fact{
     margin: 20px 0;
     text-align: center;
@@ -556,6 +663,7 @@ background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../
 #get-in-touch{
     background-color: #191c35;
     color: #ffffff;
+    padding: 30px 0;
 }
 /*Getin touch end*/
 
@@ -568,6 +676,7 @@ form{
     padding: 20px;
     background-color: white;
     margin: 30px 0;
+    box-shadow: 0 0 18px 10px rgba(0,0,0,0.1);
 }
 form input, form textarea{
     width: 100%;
@@ -586,15 +695,26 @@ form button{
     color: #ffffff;
     background-color: #e07a5f;
     margin-top: 20px;
+    /*border: 3px solid transparent;*/
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
+form button:hover{
+    cursor: pointer;
+}
+textarea[name=contact-msg]{
+    resize: none;
+}
 /*Contact us section*/
+
+
 
 /*Footer start*/
 #footer{
     background-color: #191c35;
     color: #ffffff;
+    padding: 30px 0;
     text-align: center;
+
 }
 #footer .social-link{
     margin: 20px;
@@ -603,19 +723,62 @@ form button{
 #footer .link{
     display: inline-block;
     background-color: rgba(0,0,0,0.2);
-    font-size: 1.2em;
+    font-size: 1.3em;
     padding: 20px;
-    margin: 5px;
+    margin: 10px;
+
     border-radius: 50%;
     height: 65px;
     width: 65px;
     border: 3px solid transparent;
     transition: border 0.4s;
 }
+#footer .link a{
+    text-decoration: none;
+    color: inherit;
+}
+#footer .link i{
+    position: relative;
+    top: -5px;
+}
 #footer .link:hover{
+    cursor: pointer;
     color: #e07a5f;
     border-color: #e07a5f;
 }
+.copyright{
+    text-align: center;
+    font-size: 1em;
+    font-weight: 200;
+
+}
+
+#side-button{
+    opacity: 0;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    transition: opacity 0.5s,transform 0.4s;
+}
+#side-button .navigate-up{
+    height: 65px;
+    width: 65px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #e07a5f;
+    box-shadow: 0 0 15px 10px rgba(0,0,0,0.1);
+    padding: 15px 0;
+}
+.navigate-up a{
+    text-decoration: none;
+    color: white;
+    /*font-size: 1.2em;*/
+}
+.navigate-up a i{
+    font-size: 1.8em;
+}
+
+
 /*End*/
 
 /*Media Queries*/
@@ -642,8 +805,12 @@ form button{
     #navigation li{
         display: inline-block;
     }
+    #closebtn{
+        display: none;
+        opacity: 0;
+    }
     #intro{
-        min-height: 600px;
+        min-height: 658px;
     }
     .intro-text{
         top: 200px;
@@ -706,6 +873,10 @@ form button{
     #contact-us{
         padding-bottom: 50px;
     }
+    #closebtn{
+        display: none;
+        opacity: 0;
+    }
     .service,
     .skill,
     .work,
@@ -726,5 +897,8 @@ form button{
     }
     #skills,#by-numbers{
         text-align: center;
+    }
+    #history .call-to-action{
+        display: block;
     }
 }
