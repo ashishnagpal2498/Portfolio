@@ -112,8 +112,6 @@ background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../
     background-size: cover;
     position: relative;
 
-
-
 }
 
 .intro-text{
@@ -424,7 +422,7 @@ background-image: linear-gradient(rgba(61,64,91,1),rgba(61,64,91,0.5)), url("../
 /*Three - Technical skill rating*/
 .technical-skills .skill-icon.three::after{
     content: '';
-    width: 65%;
+    width: 80%;
     background-color: #e07a5f;
     height: 25px;
     position: absolute;
